@@ -1,0 +1,15 @@
+
+body{
+    background-color: gray;
+}
+#main{
+    display: flex;
+    width: 100%;
+    background-color: yellow;
+}
+#second{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

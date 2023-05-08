@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+header{
+    width: 100%;
+    background-color: dodgerblue;
+    height: 17vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#orta{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+#left{
+    height: 94%;
+    display: flex;
+    background-color: red;
+    color: white;
+    justify-content: center;
+    width: 25%;
+    padding-top: 20px;
+}
+#main{
+    height: 94%;
+    padding-top: 20px;
+    display: flex;
+    background-color: green;
+    color: white;
+    justify-content: center;
+    width: 50%;
+}
+#right{
+    height: 94%;
+    padding-top: 20px;
+    display: flex;
+    background-color: rgb(224, 224, 27);
+    color: white;
+    justify-content: center;
+    width: 25%;
+}
+#son{
+    display: flex;
+    width: 100%;
+    height: 33vh;
+    background-color: blueviolet;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+
+}
+#son footer{
+    width: 20%;
+    height: 50px;
+    color: white;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
